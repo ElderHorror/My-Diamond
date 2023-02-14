@@ -1,0 +1,278 @@
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+nav {
+  padding: 24px 4px;
+}
+
+.div-links {
+  margin-right: 20px;
+}
+
+.cnt-div {
+  background-image: url("https://wallpaperaccess.com/full/1122136.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px 100px;
+  height: 551px;
+  color: white;
+}
+
+.cnt-div h1 {
+  font-weight: 600;
+}
+
+.cnt-div p {
+  width: 460px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.lbtn {
+  background-color: white;
+  border: none;
+  color: #f11815;
+  width: 180px;
+  padding: 6px 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.cnt-parent-div {
+  padding: 40px 0px;
+  background-color: #cdccd2;
+}
+
+.heart-div {
+  background-color: white;
+  text-align: center;
+
+  padding: 60px 40px;
+}
+
+.heart-pic {
+  margin-top: 12px;
+}
+
+.heart-icon {
+  height: 30px;
+  width: 50px;
+}
+
+hr {
+  margin: 0px;
+  width: 80px;
+  border-radius: 20px;
+  border: 1px solid #f11815;
+}
+
+.f-hr {
+  margin-left: 30px;
+  margin-bottom: 3px;
+  width: 80%;
+}
+
+.s-hr {
+  margin-right: 30px;
+  margin-bottom: 3px;
+  width: 60%;
+}
+
+.cnt-txt {
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 0.03em;
+}
+
+.child-cnt-text p {
+  width: 320px;
+  text-align: left;
+  color: grey;
+  font-size: 16px;
+}
+
+.first-text {
+  padding-right: 40px;
+}
+
+.end-text {
+  font-family: "Poppins";
+  font-size: 14px;
+  border: 1px solid red;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+.s-div {
+  padding: 30px 80px;
+  background-color: red;
+}
+.s1 {
+  font-family: "Poppins";
+  letter-spacing: 0.05em;
+  line-height: 40px;
+  padding: 0px 10px;
+  border: 1px solid white;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.s2 {
+  color: white;
+  font-size: 18px;
+}
+
+.e-div {
+  background-color: #cdccd2;
+  padding: 20px 160px;
+}
+
+.e-child-header {
+  font-family: 'Poppins';
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.e-heart-pic {
+  width: 40px;
+}
+
+.e-heart-pic .f-hr, .s-hr{
+  width: 20px;  
+}
+
+.e-heart-pic .l-hr, .sl-hr{
+  width: 40px;
+}
+.e-heart-pic .f-hr {
+  margin-left: 20px;
+}
+
+.e-child-div {
+  background-color: white;
+  padding: 40px 40px;
+  width: 500px;
+}
+.e-child-child-div {
+  width: 200px;
+}
+
+.image1 {
+  height: 300px;
+}
+
+.price-text{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.price-text span{
+  font-size: 16px;
+}
+
+.shop-button {
+  padding: 8px 14px;
+  width: 100px;
+  font-size: 12px;
+  border: none;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .cnt-div{
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 492px) {
+  .cnt-div p {
+    width: 120%;
+  }
+  .heart-pic {
+    width: 50px;
+  }
+}
+
+@media (max-width: 450px){
+  .e-child-header{
+    font-size: 18px;
+  }
+
+  .e-child-child-div{
+    padding-left: 30px;
+  }
+
+  .e-child-child-div p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 350px) {
+
+.cnt-div{
+  align-items: center;
+}
+  .cnt-div h1{
+    padding-bottom: 10px;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .cnt-div p {
+    font-size: 16px;
+    width: 180%;
+    padding-left: 70px;
+  }
+
+  .lbtn{
+    margin-top: 20px;
+  }
+
+  .heart-pic {
+    width: 50px;
+  }
+
+  .cnt-txt{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .first-text, .last-text{
+    font-size: 8px;
+  }
+
+  .s1 {
+    font-size: 14px;
+  }
+
+  .image .image1 {
+    display: none;
+  }
+
+  .e-child-child-div{
+    margin-right: 10px;
+  }
+  .e-child-child-div{
+    padding-left: 20px;
+  }
+
+  .e-child-header{
+    margin-bottom: 0px;
+
+  }
+
+  .price-text {
+    font-weight: bolder;
+  }
+  .price-text span {
+    font-size: 14px;
+  }
+}
