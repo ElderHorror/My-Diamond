@@ -147,15 +147,14 @@
         </div>
       </div>
     </div>
-    <audio autoplay id="myAudio">
-      <source src="SZA - Open Arms .mp3" type="audio/mpeg" />
-    </audio>
 
     <script src="jquery-3.6.0.js"></script>
     <script src="bootstrap.js"></script>
     <script>
-      const audio = document.getElementById("myAudio");
-      audio.play();
+      window.addEventListener('load', function() {
+      const audio = new Audio ('SZA - Open Arms .mp3');
+        audio.play();
+        )};
     </script>
   </body>
 </html>
