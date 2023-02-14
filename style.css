@@ -15,7 +15,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0px 100px;
-  height: 551px;
+  height: 680px;
   color: white;
 }
 
@@ -126,66 +126,6 @@ hr {
   font-size: 18px;
 }
 
-.e-div {
-  background-color: #cdccd2;
-  padding: 20px 160px;
-}
-
-.e-child-header {
-  font-family: 'Poppins';
-  font-size: 26px;
-  line-height: 30px;
-  font-weight: bold;
-}
-
-.e-heart-pic {
-  width: 40px;
-}
-
-.e-heart-pic .f-hr, .s-hr{
-  width: 20px;  
-}
-
-.e-heart-pic .l-hr, .sl-hr{
-  width: 40px;
-}
-.e-heart-pic .f-hr {
-  margin-left: 20px;
-}
-
-.e-child-div {
-  background-color: white;
-  padding: 40px 40px;
-  width: 500px;
-}
-.e-child-child-div {
-  width: 200px;
-}
-
-.image1 {
-  height: 300px;
-}
-
-.price-text{
-  color: red;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.price-text span{
-  font-size: 16px;
-}
-
-.shop-button {
-  padding: 8px 14px;
-  width: 100px;
-  font-size: 12px;
-  border: none;
-  color: white;
-  background-color: red;
-  font-weight: bold;
-}
-
 @media (max-width: 600px) {
   .cnt-div{
     padding-left: 30px;
@@ -202,19 +142,7 @@ hr {
 }
 
 @media (max-width: 450px){
-  .e-child-header{
-    font-size: 18px;
-  }
-
-  .e-child-child-div{
-    padding-left: 30px;
-  }
-
-  .e-child-child-div p {
-    font-size: 14px;
-  }
-}
-
+ 
 @media (max-width: 350px) {
 
 .cnt-div{
@@ -252,27 +180,4 @@ hr {
   .s1 {
     font-size: 14px;
   }
-
-  .image .image1 {
-    display: none;
-  }
-
-  .e-child-child-div{
-    margin-right: 10px;
-  }
-  .e-child-child-div{
-    padding-left: 20px;
-  }
-
-  .e-child-header{
-    margin-bottom: 0px;
-
-  }
-
-  .price-text {
-    font-weight: bolder;
-  }
-  .price-text span {
-    font-size: 14px;
-  }
-}
+}}
